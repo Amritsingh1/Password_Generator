@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/66625059a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>
+      <span id="white">Generate a</span><span id="green"> random password</span>
+    </h1>
+    <h2>Never use an insecure password again.</h2>
+    <button class="gen" onclick="generatepass()">
+      <i class="fa-solid fa-bolt"> Generate passwords</i>
+    </button>
+    <div class="pass">
+      <!-- <input class="pass-row" type="text" /> -->
+      <!-- <input class="pass-row" type="text" /> -->
+      <div class="pass-row" id="pass1" onclick="CopytToClipboard('pass1')">
+        ...
+      </div>
+      <div class="pass-row" id="pass2" onclick="CopytToClipboard('pass2')">
+        ...
+      </div>
+    </div>
+    <div class="pass">
+      <div class="pass-row" id="pass3" onclick="CopytToClipboard('pass3')">
+        ...
+      </div>
+      <div class="pass-row" id="pass4" onclick="CopytToClipboard('pass4')">
+        ...
+      </div>
+
+      <!-- <input class="pass-row" type="text" /> -->
+      <!-- <input class="pass-row" type="text" /> -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
