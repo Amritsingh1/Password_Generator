@@ -7,25 +7,25 @@ body {
 
 h1 {
   margin: 0 auto;
-  margin-left: 50px;
-  margin-top: 60px;
-  width: 340px;
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 680px;
   font-family: Karla;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: -0/0.025em;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -0/0.05em;
 
   color: #ffffff;
 }
 h2 {
-  width: 372px;
-  margin-left: 50px;
+  width: 744px;
+  margin-left: 100px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 30px;
   color: #d5d4d8;
 }
 #green {
@@ -34,49 +34,48 @@ h2 {
 
 .gen {
   cursor: pointer;
-  margin-top: 50px;
-  margin-left: 60px;
+  margin-top: 100px;
+  margin-left: 120px;
   justify-content: center;
   padding: 9px 17px 9px 15px;
-  width: 200px;
-  left: 52px;
-  top: 287px;
+  width: 400px;
+  height: 70px;
+  left: 104px;
+  top: 600px;
   background: #10b981;
   border-radius: 6px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 80px;
   letter-spacing: 0.1em;
   color: #ffffff;
   margin-bottom: 130px;
 }
 .pass {
   display: flex;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-bottom: 50px;
 
   /* margin-top: 90px; */
 }
 
 .pass-row {
   cursor: pointer;
-  width: 450px;
-  height: 32px;
-  padding-top: 10px;
+  width: 800px;
+  height: 64px;
+  padding-top: 20px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 32px;
 
   text-align: center;
 
   color: #55f991;
   background: #273549;
-  border-radius: 6px;
-  /* width: 100px; */
   border-radius: 5px;
 }
